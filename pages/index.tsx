@@ -3,12 +3,12 @@ import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export default function Home() {
   return (
     <>
-      <h1 className="font-bold underline text-sm">Hello world!</h1>
+      <h1 className="text-pink-500  font-serif  underline text-lg">
+        Hello world!
+      </h1>
     </>
   );
 }
